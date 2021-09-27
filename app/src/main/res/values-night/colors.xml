@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#d8bbff</color>
+    <color name="purple_500">#f3c4fb</color>
+    <color name="purple_700">#deaaff</color>
+    <color name="teal_200">#c0fdff</color>
+    <color name="teal_700">#c8e7ff</color>
+    <color name="neon">#D9FF00</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FDB4EB</color>
+    <color name="pink_dark">#FBB8EA</color>
+    <color name="rv_background">#393953</color>
+    <color name="rv_text">#FFFFFF</color>
+    <color name="rv_backgroundbackground">#29293d</color>
+    <color name="welcome_msg">#FFFFFFFF</color>
+    <color name="purple_bg">#150D2F</color>
+    <color name="purle_rv">#241551</color>
+    <color name="hotpink">#fc33f8</color>
+    <color name="titel_color">#FFFFFF</color>
+
+    <color name="startColor">#393953</color>
+    <color name="centerColor">#29293d</color>
+    <color name="endColor">#29293d</color>
+</resources>

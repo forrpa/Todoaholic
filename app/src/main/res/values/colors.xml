@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#d8bbff</color>
+    <color name="purple_500">#f3c4fb</color>
+    <color name="purple_700">#deaaff</color>
+    <color name="teal_200">#c0fdff</color>
+    <color name="teal_700">#c8e7ff</color>
+    <color name="black">#30374f</color>
+    <color name="lightertext">#9aa3c1</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#ffcbf2</color>
+    <color name="neon">#D9FF00</color>
+    <color name="completed">#cbd7fc</color>
+    <color name="pink_dark">#FBB8EA</color>
+    <color name="rv_background">#FFFFFF</color>
+    <color name="rv_text">#FF000000</color>
+    <color name="rv_backgroundbackground">#faf7ff</color>
+    <color name="rv_bgdarker">#f7f3ff</color>
+    <color name="welcome_msg">#FF000000</color>
+    <color name="catpink">#efc6d9</color>
+    <color name="purple_bg">#faf7ff</color>
+    <color name="purle_rv">#FFFFFF</color>
+    <color name="hotpink">#FBB8EA</color>
+    <color name="titel_color">#30374f</color>
+    <color name="palegreen">#f4ffe2</color>
+
+    <color name="colorYello">#FFC107</color>
+
+    <color name="green_button">#AFE7CB</color>
+    <color name="green_700">#035203</color>
+    <color name="pink_A400">#D32F2F</color>
+    <color name="green_background">#EAFAF2</color>
+
+    <color name="startColor">#FFFBF6</color>
+    <color name="centerColor">#FFF6FB</color>
+    <color name="endColor">#F7F2FF</color>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

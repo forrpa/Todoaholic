@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Todoaholic</string>
+    <string name="text_recipient">Recipient e-mail</string>
+    <string name="text_subject">Subject</string>
+    <string name="text_message">Message</string>
+    <string name="button_send">Send</string>
+    <string name="subject">My to do-list</string>
+    <string name="menu_email">Email list</string>
+    <string name="menu_clear">Remove completed</string>
+    <string name="menu_icon">Menu</string>
+    <string name="list_name">Today</string>
+    <string name="hide_completed">Filter completed</string>
+    <string name="completed_todos"></string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ToDo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/neon</item>
+        <item name="colorSecondaryVariant">@color/neon</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/rv_backgroundbackground</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:windowBackground">@color/rv_background</item>
+        <item name="android:colorBackgroundCacheHint">@color/white</item>
+        <item name="android:itemBackground">@color/rv_background</item>
+        <item name="colorBackgroundFloating">@color/rv_background</item>
+        <item name="android:colorBackgroundFloating" tools:targetApi="23">@color/rv_background</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+</resources>
