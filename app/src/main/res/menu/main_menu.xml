@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:icon="@drawable/ic_baseline_post_add_24"
-        android:title="menu_addlist"
+        android:title="menu_addcategory"
         app:showAsAction="ifRoom" />
     <item
         android:icon="@drawable/ic_baseline_delete_24"

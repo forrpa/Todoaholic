@@ -6,13 +6,15 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-
 import io.reactivex.Completable;
 
+/**
+ * Dao interface for a Room database that represents the database interactions
+ * A to do list item can be inserted, updated, deleted and retrieved
+ * A list can be inserted, updated and retrieved
+ */
 @Dao
 public interface TodoDao {
 
@@ -32,7 +34,7 @@ public interface TodoDao {
     void updateAll(Todo...todos);
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
-    void updateTheList(List<Todo> todoList);
+    void updateList(List<Todo> todoList);
 
     @Delete
     void delete(Todo todo);
@@ -44,13 +46,13 @@ public interface TodoDao {
     void deleteAllCompleted();
 
     @Query("SELECT DISTINCT list_name FROM todo")
-    List<String> getAllListNames();
+    List<String> getAllCategories();
 
     @Query("SELECT * FROM todo")
     List<Todo> getAll();
 
     @Query("SELECT * FROM todo WHERE list_name=:listName")
-    List<Todo> getAllByListName(String listName);
+    List<Todo> getAllByCategory(String listName);
 
     @Query("SELECT COUNT() FROM todo")
     int getRowCount();

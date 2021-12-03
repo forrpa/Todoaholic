@@ -5,7 +5,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TimePicker
-        android:id="@+id/timePicker1"
+        android:id="@+id/newTodoTimePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -13,21 +13,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/newTodoName" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/newTodoAddBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/timePicker1"
+        android:layout_below="@+id/newTodoTimePicker"
         android:layout_marginTop="16dp"
         android:text="Add todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timePicker1" />
+        app:layout_constraintTop_toBottomOf="@+id/newTodoTimePicker" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/newTodoName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
